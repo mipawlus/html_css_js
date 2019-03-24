@@ -16,4 +16,4 @@ Comments
 
 Images
 
-<img src="https://test.pl" alt="text">
+<img src="[https://test.pl](https://upload.wikimedia.org/wikipedia/commons/4/46/Logo-psp.png)" alt="text">
