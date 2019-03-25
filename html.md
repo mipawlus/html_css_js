@@ -78,6 +78,9 @@ Input elements
 ```
 <input type="text">
 ```
+```
+<input type="text" required>
+```
 Input placeholder
 ```
 <input type="text" placeholder=" something"/>
@@ -85,4 +88,69 @@ Input placeholder
 
 ```
 <form action="/url-where-you-want-to-submit-form-data"></form>
+```
+```
+<form action="/submit-cat-photo"><input type="text" placeholder="cat photo URL"></form>
+```
+Button
+```
+<button type="submit">Submit</button>
+```
+```
+<form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL">
+    <button type="submit">Submit</button>
+</form>
+```
+Radio buttons
+```
+    <form action="/indoor">
+        <label for="indoor"> 
+            <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+        </label>
+    </form>
+    <form action="/outdoor">
+        <label for="outdoor"> 
+            <input id="outdoor" type="radio" name="indoor-outdoor">outdoor 
+        </label>
+    </form>
+```
+Checkbox
+```
+    <label for="loving">
+      <input id="loving" type="checkbox" name="personality"> Loving
+    </label>
+    <label for="hating">
+      <input id="hating" type="checkbox" name="personality"> Hating
+    </label>
+    <label for="patroling">
+      <input id="patroling" type="checkbox" name="personality"> Patroling
+    </label>
+```
+Check radio buttons and checkboxes
+```
+<input type="radio" name="test-name" checked>
+```
+Division element
+```
+<div></div>
+```
+Declare the type of an HTML Document
+```
+<!DOCTYPE html>
+<html>
+  <!-- Your HTML code goes here -->
+</html>
+```
+Head and body of HTML Document
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata elements -->
+  </head>
+  <body>
+    <!-- page contents -->
+  </body>
+</html>
 ```
