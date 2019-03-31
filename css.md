@@ -77,9 +77,44 @@ Padding
         padding: *px;
     }
 ```
+Different padding for each side
+```
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+```
+Or clockwise padding
+```
+padding: 20px 40px 20px 40px;
+```
 Margin
 ```
     .margin {
-        margin: *px;
+        margin: *px; or negative margin -*px;
     }
 ```
+Different margin for each side
+```
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+```
+Or clockwise margin
+```
+margin: 20px 40px 20px 40px;
+```
+Use Attribute Selectors to Style Elements
+```
+[type='radio' 'checkbox'] {
+    margin: 20px 0px;
+}
+```
+Absolute and Relative Units
+Absolute as in, mm or px
+Realtive as em or rem
+As example
+    .class {
+        padding: 1.5em;
+    }
