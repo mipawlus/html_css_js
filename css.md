@@ -115,6 +115,15 @@ Absolute and Relative Units
 Absolute as in, mm or px
 Realtive as em or rem
 As example
+```
     .class {
         padding: 1.5em;
     }
+```
+Style the HTML Body Element
+```
+body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+}
