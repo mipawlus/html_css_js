@@ -56,3 +56,11 @@ Apply multiple classes
 ```
 <element class="class1 class2">
 ```
+.name-of-class {
+    background-color: color;
+}
+Set ID of an Element
+```
+    <element id="">
+```
+**ID is not reusable and should only be applied to one element**
