@@ -64,3 +64,22 @@ Set ID of an Element
     <element id="">
 ```
 **ID is not reusable and should only be applied to one element**
+**always reference classes by putting a . in front of their names. You always reference ids by putting a # in front of their names**
+Style ID
+```
+    #id {
+        example-example: color;
+    }
+```
+Padding
+```
+    .class {
+        padding: *px;
+    }
+```
+Margin
+```
+    .margin {
+        margin: *px;
+    }
+```
