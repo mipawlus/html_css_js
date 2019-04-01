@@ -63,3 +63,25 @@ Add Shadows to an Element
 ```
 opacity: 0.7;
 ```
+text-transform
+Value	Result
+lowercase	"transform me"
+uppercase	"TRANSFORM ME"
+capitalize	"Transform Me"
+initial	Use the default value
+inherit	Use the text-transform value from the parent element
+none	Default: Use the original text
+
+line-height pseudo-classes a:hover position: relative;
+The CSS offsets of top or bottom, and left or right
+
+Absolute position
+```
+    position: absolute;
+```
+Fixed position
+```
+    position: fixed;
+```
+**One key difference between the fixed and absolute positions is that an element with a fixed position won't move when the user scrolls.**
+float: left or right;
