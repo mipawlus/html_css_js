@@ -85,3 +85,11 @@ Fixed position
 ```
 **One key difference between the fixed and absolute positions is that an element with a fixed position won't move when the user scrolls.**
 float: left or right;
+
+ Overlapping Elements 
+ z-index: 1 or 2;
+
+ Center Element Horizontal
+ ```
+ margin: auto;
+ ```
