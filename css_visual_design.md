@@ -182,3 +182,5 @@ float: left or right;
    animation-iteration-count: 3, infinite;
 
    animation-timing-function: ease, ease-in, ease-out, linear;
+
+   animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
