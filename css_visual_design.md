@@ -93,3 +93,92 @@ float: left or right;
  ```
  margin: auto;
  ```
+ hsl(%, %, %);
+
+ AMAZING
+ background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
+
+ background: repeating-linear-gradient(90deg, yellow 0px, blue 40px, green 40px, red 80px);
+
+ url();
+
+ transform: scale(1.5);
+ scale, move, rotate, skew, etc.
+
+ element:hover {
+     transform: scale(1.1);
+ }
+
+ element {
+     transform: skewX(-32deg);
+ }
+
+ element {
+     transform: skewY(-10deg);
+ }
+
+|| rotate(25deg);
+
+ border-radius: offset-x offset-y blur-radius spread-radius
+```
+#rect {
+    animation-name: rainbow;
+    animation-duration: 4s;
+    
+  }
+  @keyframes rainbow {
+    0% {
+      background-color: blue;
+      }
+    50% {
+      background-color: green;
+    }  
+    100% {
+      background-color: yellow;
+```
+```
+      button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    **animation-fill-mode: forwards;** 
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #4791d0;
+    }
+```
+```
+#rect {
+  animation-name: rainbow;
+  animation-duration: 4s;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: blue;
+    top: 0px;
+    left: 0px;
+  }
+  50% {
+    background-color: green;
+    top: 50px;
+    left: 25px;
+  }
+  100% {
+    background-color: yellow;
+    top: 0px;
+    left: -25px;
+  }
+}
+```
+```
+@keyframes fade {
+    50% {
+      left: 60%;
+      opacity: 0.1;
+    }
+  }
+  ```
+   animation-iteration-count: 3, infinite;
+
+   animation-timing-function: ease, ease-in, ease-out, linear;
