@@ -46,7 +46,10 @@ Nest an Anchor Element within a Paragraph
 ```
 <p><a href="http://freecatphotoapp.com">Text</a> View more </p>
 ```
-
+Relative path
+```
+ <img src=".\tribute.jpg" alt="tribute picture">
+```
 Dead link
 
 ```

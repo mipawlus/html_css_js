@@ -72,3 +72,5 @@ flex: 1 0 10px; will set the item to flex-grow: 1;, flex-shrink: 0;, and flex-ba
 order: number;
 
 align-self:
+
+align-self accepts the same values as align-items and will override any value set by the align-items property.
