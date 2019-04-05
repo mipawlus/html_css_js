@@ -84,3 +84,29 @@ grid-template-areas:
 ```
 .item1 { grid-area: header; }
 ```
+or
+```
+grid-area: 1/1/2/4; 
+||
+grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
+```
+```
+Here's an example that would create the 100 row grid, each row at 50px tall.
+
+grid-template-rows: repeat(100, 50px);
+You can also repeat multiple values with the repeat function, and insert the function amongst other values when defining a grid structure. Here's what I mean:
+
+grid-template-columns: repeat(2, 1fr 50px) 20px;
+This translates to:
+
+grid-template-columns: 1fr 50px 1fr 50px 20px;
+```
+```
+grid-template-columns: repeat(3, minmax(90px, 1fr));
+```
+```
+grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+```
+```
+grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+```
