@@ -41,3 +41,24 @@ JavaScript uses the / symbol for division.
 
 myVar = 16 / 2; // assigned 8
 
+Increment a Number
+
+You can easily increment or add one to a variable with the ++ operator.
+
+i++;
+
+is the equivalent of
+
+i = i + 1;
+
+Decrement a Number
+
+You can easily decrement or decrease a variable by one with the -- operator.
+
+i--;
+
+is the equivalent of
+
+i = i - 1;
+
+Decimal number = 5.4
