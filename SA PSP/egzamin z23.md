@@ -34,3 +34,26 @@ SA PSP <br>
 **pompy, węże, chemia**
 
 
+**Urządzenia przeciwpożarowe**
+czas konserwacji - nie rzadziej niż rok, chyba że wytyczne zalecaja czesciej
+hydranty wewnetrze, z wezem plaskoskladanym, z półsztywnym, zawór hydrantowy
+garaze - 33 polsztywnym
+<br>
+sieci wodociagowe - pierscieniowe, rozgalezieniowe, 
+znaki ewakuacji, drabina ewakuacyjna, strzałka kierunkowa, gaśnica, 
+linie dozorowe - konwencjonalne - 32 czujki, przyciski pozarowe - 10, adresowalne - mieszane, opisane
+piktogram - oznaczenie czujki dymu, ciepła
+piktogram - sygnalizacja pozaru
+
+samochod wypadl z drogi, ewakuacja, ile gasnic, gestosc obciazenia ogniowego
+
+strazak ma wystapic w chełmie i miec buty ochronne, strazak zabezpieczony w sprzet odo
+
+dolne granice wybuchowsci, obliczyc strefy, mierniki, gestosc powietrza
+
+rozwoj prostokatny, kolowy, stozkowy
+
+dwa samochody, samochod drzewo, szynowy
+
+
+

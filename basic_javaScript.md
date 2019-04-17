@@ -55,7 +55,7 @@ Decrement a Number
 
 You can easily decrement or decrease a variable by one with the -- operator.
 
-i--;
+i--;-
 
 is the equivalent of
 
@@ -86,3 +86,70 @@ Compound Assignment With Augmented Addition
 var myVar = 1;
 myVar += 5;
 console.log(myVar); // Returns 6
+
+Compound Assignment With Augmented Subtraction
+
+var myVar = 1;
+myVar -= 1;
+console.log(myVar); // Returns 0
+
+Compound Assignment With Augmented Multiplication
+
+var myVar = 1;
+myVar *= 5;
+console.log(myVar); // Returns 5
+
+Compound Assignment With Augmented Division
+
+var myVar = 10;
+myVar /= 2;
+console.log(myVar); // Returns 5
+
+Declare String Variables
+
+var myLastName = lastName;
+
+Escaping Literal Quotes in Strings
+
+var sampleStr = "Alan said, \"Peter is learning JavaScript\".";
+
+Escape Sequences in Strings
+
+Code	Output
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\r	carriage return
+\t	tab
+\b	backspace
+\f	form feed
+```
+FirstLine
+    \SecondLine
+ThirdLine
+```
+var myStr =  "FirstLine\n \t\\SecondLine \nThirdLine"; // Change this line
+
+Concatenating Strings with Plus Operator
+
+'My name is Alan,' + ' I concatenate.'
+```
+var myStr = "This is the start." + " This is the end.";
+```
+
+```
+var myStr = "This is the start.";
+myStr += " This is the end.";
+```
+
+Find the Length of a String
+```
+variableName.length;
+```
+
+Bracket Notation for indexing Character in a String
+```
+var variableName = "Some string";
+var indexNumber = variableName[0];
+```
