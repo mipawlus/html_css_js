@@ -8,47 +8,117 @@
     <title>Document</title>
 </head>
 <style>
-        body {
-            background-color: #a9d7d1;
-        }
-        .row {
-  display: flex;
+    
+body {
+  background-color: #a9d7d1;
+  text-align: center;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  min-width: 320px;
+}       
+.label {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;  
 }
-
-.column {
-  flex: 50%;
+.input { 
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+.survey {
+  
+  background-color: rgb(250, 250, 250);
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+.row {
+  justify-content: top;
+	align-items: top;
 }
     </style>
 <body>
-        
     <h1>Survey Form</h1>
-    <p>Let us know how we can improve freeCodeCamp</p>
+    <p>Let us know how we can improve freeCodeCamp</p> 
+    <div class="survey">
+    <div class="row">   
+    <div class="label">
+      <p>* Name:</p>  
+    </div>
+    <div class="input">
     <form>
-            <p>adasda <input type="text" name="firstname"></p>
-            <p>adasda <input type="text" name="firstname"></p>
-            <p>adasda <input type="text" name="firstname"></p>        
+            <p><input type="text" name="firstname"></p>             
     </form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="label">
+        <p>* Name:</p>  
+      </div>
+      <div class="input">
+      <form>
+              <p><input type="text" name="firstname"></p>             
+      </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="label">
+          <p>* Name:</p>  
+        </div>
+        <div class="input">
+        <form>
+                <p><input type="text" name="firstname"></p>             
+        </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">
             <p>Which option best describes your current role?</p>
+          </div>
+          <div class="input">
     <select>
             <option value="html" disabled selected>HTML</option>
             <option value="css">CSS</option>
             <option value="javascript">JavaScript</option>
     </select>
-    <div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="label">
     <p>* How likely is that you would recommend freeCodeCamp to a friend?</p>
+  </div>
+  <div class="input">
         <form>
             <p><input type="radio" name="firstname">adasda</p>
             <p><input type="radio" name="firstname">adasda</p>
             <p><input type="radio" name="firstname">adasda</p>        
         </form>
     </div>
+  </div>
+  <div class="row">
+      <div class="label">
     <p>What do you like most in FCC:</p>
+  </div>
+  <div class="input">
     <select>
             <option value="html" disabled>HTML</option>
             <option value="css">CSS</option>
             <option value="javascript">JavaScript</option>
     </select>
+    </div>
+    <div class="row">
+        <div class="label">
     <p>Things that should be improved in the future (Check all that apply):</p>
+        </div>
+    <div class="input">
     <form>
         <p><input type="radio" name="firstname">adasda</p>
         <p><input type="radio" name="firstname">adasda</p>
@@ -62,12 +132,14 @@
         <p><input type="radio" name="firstname">adasda</p>
         <p><input type="radio" name="firstname">adasda</p>    
     </form>
+    </div>
+    </div>
     <p>Any Comments or Suggestions?</p>
     <form>
         <p><input type="text" name="firstname"></p>    
 </form>
 <div class="row">
-    <div class="column">
+    <div class="column1">
         <p>Let us know how we can improve freeCodeCamp</p>
         
     </div>
@@ -77,7 +149,7 @@
             <p>adasda <input type="text" name="firstname"></p>
             <p>adasda <input type="text" name="firstname"></p>        
     </form>
-  </div>
-  
+  </div>  
+</div>
 </body>
 </html>
