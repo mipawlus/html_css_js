@@ -232,3 +232,18 @@ var oneDown = threeArr.shift();
 // threeArr is [1,2]
 // oneDown is 1
 ```
+```
+var myList = [];
+myList.push(["Chocolate Bar", 15]);
+myList.push(["Chocolate Bara", 15]);
+myList.push(["Chocolate Basr", 15]);
+myList.push(["Chocolatea Bar", 15]);
+myList.push(["Chocolaate Bar", 15]);
+```
+Funkcje
+```
+function reusableFunction() { 
+  console.log("Hi World"); 
+  } 
+  
+reusableFunction();
