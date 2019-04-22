@@ -247,3 +247,30 @@ function reusableFunction() {
   } 
   
 reusableFunction();
+
+```
+
+```
+function functionWithArgs(a, b) {
+  console.log (a +b);
+}
+
+functionWithArgs (a +b);
+```
+Global and local scope
+```
+var myKey = "something";
+
+function globalVariable () {
+  var myKey = "anything";
+  return myKey
+}
+It returns local scope
+```
+Return a value from function
+```
+function timesFive(black) {
+  return black * 5;
+}
+console.log(timesFive(5));
+```
