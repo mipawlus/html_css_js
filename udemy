@@ -22,11 +22,11 @@ var movies = [
 ]
 function moviesRating () {
 for (i = 0; i < movies.length; i++) {
-console.log(movies[i].title + " " + movies[i].rating + " " + watched(i))
+console.log("You have " + watched(i) + " \"" + movies[i].title + "\" - " + movies[i].rating + " stars")
 }
 }
 function watched (i) {
-if (movies[i].watched == true) { return "read";}
-if (movies[i].watched == false) { return "unread";}
+if (movies[i].watched == true) { return "watched";}
+if (movies[i].watched == false) { return "not seen";}
 }
 
