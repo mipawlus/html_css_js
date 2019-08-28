@@ -20,9 +20,13 @@ var movies = [
 	watched: false
 }
 ]
+function moviesRating () {
 for (i = 0; i < movies.length; i++) {
-console.log(movies[i].title + " " + movies[i].rating + watched())
+console.log(movies[i].title + " " + movies[i].rating + " " + watched(i))
 }
-function watched () {
-if (movies[0].watched == true) { console.log("read")}
 }
+function watched (i) {
+if (movies[i].watched == true) { return "read";}
+if (movies[i].watched == false) { return "unread";}
+}
+
